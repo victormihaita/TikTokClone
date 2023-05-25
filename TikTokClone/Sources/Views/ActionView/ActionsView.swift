@@ -24,7 +24,7 @@ struct ActionsView: View {
                 .clipShape(Circle())
                 .overlay(
                     Circle()
-                        .stroke(Color.white, lineWidth: 4)
+                        .stroke(Color.white, lineWidth: 1)
                 )
 
                 Image(systemName: "plus.circle.fill")
