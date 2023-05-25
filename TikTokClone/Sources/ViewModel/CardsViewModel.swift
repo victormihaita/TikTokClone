@@ -20,6 +20,7 @@ protocol CardsProtocol {
 }
 
 class CardsViewModel: CardsProtocol {
+
     var type: CardType!
 
     init(type: CardType) {
@@ -39,6 +40,5 @@ class CardsViewModel: CardsProtocol {
         case .none:
             return nil
         }
-
     }
 }

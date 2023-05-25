@@ -39,6 +39,16 @@ struct HomeView: View {
             .tabViewStyle(
                 PageTabViewStyle(indexDisplayMode: .never)
             )
+            .onChange(of: tabViewSelection) { index in
+                switch index {
+                case 0:
+                    viewModel.activeTag = .following
+                case 1:
+                    viewModel.activeTag = .forYou
+                default:
+                    break
+                }
+            }
         }
         .background(Color("MainBackground"))
         .onAppear {

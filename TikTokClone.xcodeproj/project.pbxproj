@@ -20,6 +20,8 @@
 		042A62CC2A12B57600AC7D79 /* ActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A62CB2A12B57600AC7D79 /* ActionsView.swift */; };
 		042A62CF2A13D3BA00AC7D79 /* FlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A62CE2A13D3BA00AC7D79 /* FlashcardView.swift */; };
 		042A62D12A13D49F00AC7D79 /* MCQCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A62D02A13D49F00AC7D79 /* MCQCardsView.swift */; };
+		046B99212A1F46F700D9A8D9 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B99202A1F46F700D9A8D9 /* Answer.swift */; };
+		046B99232A1F48EE00D9A8D9 /* MCQCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B99222A1F48EE00D9A8D9 /* MCQCardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		042A62CE2A13D3BA00AC7D79 /* FlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardView.swift; sourceTree = "<group>"; };
 		042A62D02A13D49F00AC7D79 /* MCQCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQCardsView.swift; sourceTree = "<group>"; };
 		046B99122A1F408800D9A8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		046B99202A1F46F700D9A8D9 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		046B99222A1F48EE00D9A8D9 /* MCQCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQCardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 			children = (
 				04237D1A2A123B3400C847CF /* HomeViewModel.swift */,
 				042A62C42A126BD000AC7D79 /* CardsViewModel.swift */,
+				046B99222A1F48EE00D9A8D9 /* MCQCardViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			children = (
 				042A62BC2A12691F00AC7D79 /* User.swift */,
 				042A62C92A12AB1A00AC7D79 /* Card.swift */,
+				046B99202A1F46F700D9A8D9 /* Answer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -243,7 +249,9 @@
 				042A62CC2A12B57600AC7D79 /* ActionsView.swift in Sources */,
 				042A62CA2A12AB1A00AC7D79 /* Card.swift in Sources */,
 				04237D092A122A9A00C847CF /* TikTokCloneApp.swift in Sources */,
+				046B99232A1F48EE00D9A8D9 /* MCQCardViewModel.swift in Sources */,
 				042A62B82A12473100AC7D79 /* FlashCardsView.swift in Sources */,
+				046B99212A1F46F700D9A8D9 /* Answer.swift in Sources */,
 				042A62C52A126BD000AC7D79 /* CardsViewModel.swift in Sources */,
 				042A62CF2A13D3BA00AC7D79 /* FlashcardView.swift in Sources */,
 				04237D1B2A123B3400C847CF /* HomeViewModel.swift in Sources */,

@@ -1,6 +1,11 @@
 import SwiftUI
 
 struct MCQCardView: View {
+    @ObservedObject var viewModel: MCQCardViewModel = MCQCardViewModel()
+
+    @State var selectedOption: Option?
+    @State var correctOption: Option?
+
     var card: MCQCard
 
     var body: some View {
@@ -23,8 +28,12 @@ struct MCQCardView: View {
                                 .frame(maxWidth: .infinity)
                                 .font(.subheadline)
                                 .foregroundColor(.white)
-                                .background(.white.opacity(0.1))
+                                .background(option.id == selectedOption?.id && correctOption?.id != selectedOption?.id ? .red.opacity(0.2) : .white.opacity(0.1))
+                                .background(option.id == correctOption?.id && selectedOption != nil ? .green.opacity(0.2) : .white.opacity(0.1))
                                 .cornerRadius(8)
+                                .onTapGesture {
+                                    selectedOption = option
+                                }
                         }
                     })
 
@@ -64,6 +73,11 @@ struct MCQCardView: View {
 
         }
         .background(Color("MainBackground"))
-
+        .onAppear {
+            Task {
+                let correctOption = try await viewModel.revealAnswer(for: card.id)
+                self.correctOption = correctOption?.correctOptions.first
+            }
+        }
     }
 }

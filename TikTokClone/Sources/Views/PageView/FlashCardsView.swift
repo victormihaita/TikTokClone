@@ -28,11 +28,6 @@ struct FlashCardsView: View {
                 .rotationEffect(.degrees(-90))
                 .frame(width: proxy.size.width, height: proxy.size.height)
             }
-            .task {
-                let newCard = try? await viewModel.fetchCard()
-                guard let newCard = newCard as? FlashCard else { return }
-                cards.append(newCard)
-            }
             .frame(width: proxy.size.height, height: proxy.size.width)
             .rotationEffect(.degrees(90), anchor: .topLeading)
             .offset(x: proxy.size.width)
@@ -41,5 +36,10 @@ struct FlashCardsView: View {
             )
         }
         .background(Color("MainBackground"))
+        .task {
+            let newCard = try? await viewModel.fetchCard()
+            guard let newCard = newCard as? FlashCard else { return }
+            cards.append(newCard)
+        }
     }
 }
