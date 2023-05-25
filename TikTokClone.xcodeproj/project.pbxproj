@@ -10,7 +10,16 @@
 		04237D092A122A9A00C847CF /* TikTokCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04237D082A122A9A00C847CF /* TikTokCloneApp.swift */; };
 		04237D0B2A122A9A00C847CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04237D0A2A122A9A00C847CF /* ContentView.swift */; };
 		04237D0D2A122A9B00C847CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04237D0C2A122A9B00C847CF /* Assets.xcassets */; };
-		04237D102A122A9B00C847CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04237D0F2A122A9B00C847CF /* Preview Assets.xcassets */; };
+		04237D192A122B1B00C847CF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04237D182A122B1B00C847CF /* HomeView.swift */; };
+		04237D1B2A123B3400C847CF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04237D1A2A123B3400C847CF /* HomeViewModel.swift */; };
+		042A62B82A12473100AC7D79 /* FlashCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A62B72A12473100AC7D79 /* FlashCardsView.swift */; };
+		042A62BD2A12691F00AC7D79 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A62BC2A12691F00AC7D79 /* User.swift */; };
+		042A62C52A126BD000AC7D79 /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A62C42A126BD000AC7D79 /* CardsViewModel.swift */; };
+		042A62C82A12711200AC7D79 /* MCQCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A62C72A12711200AC7D79 /* MCQCardView.swift */; };
+		042A62CA2A12AB1A00AC7D79 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A62C92A12AB1A00AC7D79 /* Card.swift */; };
+		042A62CC2A12B57600AC7D79 /* ActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A62CB2A12B57600AC7D79 /* ActionsView.swift */; };
+		042A62CF2A13D3BA00AC7D79 /* FlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A62CE2A13D3BA00AC7D79 /* FlashcardView.swift */; };
+		042A62D12A13D49F00AC7D79 /* MCQCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A62D02A13D49F00AC7D79 /* MCQCardsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +27,17 @@
 		04237D082A122A9A00C847CF /* TikTokCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokCloneApp.swift; sourceTree = "<group>"; };
 		04237D0A2A122A9A00C847CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04237D0C2A122A9B00C847CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04237D0F2A122A9B00C847CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04237D182A122B1B00C847CF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04237D1A2A123B3400C847CF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		042A62B72A12473100AC7D79 /* FlashCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsView.swift; sourceTree = "<group>"; };
+		042A62BC2A12691F00AC7D79 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		042A62C42A126BD000AC7D79 /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
+		042A62C72A12711200AC7D79 /* MCQCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQCardView.swift; sourceTree = "<group>"; };
+		042A62C92A12AB1A00AC7D79 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		042A62CB2A12B57600AC7D79 /* ActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsView.swift; sourceTree = "<group>"; };
+		042A62CE2A13D3BA00AC7D79 /* FlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardView.swift; sourceTree = "<group>"; };
+		042A62D02A13D49F00AC7D79 /* MCQCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQCardsView.swift; sourceTree = "<group>"; };
+		046B99122A1F408800D9A8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04200FF22A1F2AA900929841 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04237D0C2A122A9B00C847CF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04200FF32A1F2AAF00929841 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				042A62CD2A13D12100AC7D79 /* Main */,
+				042A62BB2A12691400AC7D79 /* Model */,
+				042A62C62A12710200AC7D79 /* Views */,
+				04200FF72A1F35CD00929841 /* ViewModel */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		04200FF52A1F359900929841 /* CardViews */ = {
+			isa = PBXGroup;
+			children = (
+				042A62C72A12711200AC7D79 /* MCQCardView.swift */,
+				042A62CE2A13D3BA00AC7D79 /* FlashcardView.swift */,
+			);
+			path = CardViews;
+			sourceTree = "<group>";
+		};
+		04200FF62A1F35B300929841 /* ActionView */ = {
+			isa = PBXGroup;
+			children = (
+				042A62CB2A12B57600AC7D79 /* ActionsView.swift */,
+			);
+			path = ActionView;
+			sourceTree = "<group>";
+		};
+		04200FF72A1F35CD00929841 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04237D1A2A123B3400C847CF /* HomeViewModel.swift */,
+				042A62C42A126BD000AC7D79 /* CardsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		04237CFC2A122A9A00C847CF = {
 			isa = PBXGroup;
 			children = (
@@ -51,20 +115,57 @@
 		04237D072A122A9A00C847CF /* TikTokClone */ = {
 			isa = PBXGroup;
 			children = (
-				04237D082A122A9A00C847CF /* TikTokCloneApp.swift */,
-				04237D0A2A122A9A00C847CF /* ContentView.swift */,
-				04237D0C2A122A9B00C847CF /* Assets.xcassets */,
-				04237D0E2A122A9B00C847CF /* Preview Content */,
+				046B99122A1F408800D9A8D9 /* Info.plist */,
+				04200FF32A1F2AAF00929841 /* Sources */,
+				04200FF22A1F2AA900929841 /* Resources */,
 			);
 			path = TikTokClone;
 			sourceTree = "<group>";
 		};
-		04237D0E2A122A9B00C847CF /* Preview Content */ = {
+		04237D172A122B1200C847CF /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				04237D0F2A122A9B00C847CF /* Preview Assets.xcassets */,
+				04237D182A122B1B00C847CF /* HomeView.swift */,
 			);
-			path = "Preview Content";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		042A62B62A12472000AC7D79 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				042A62D02A13D49F00AC7D79 /* MCQCardsView.swift */,
+				042A62B72A12473100AC7D79 /* FlashCardsView.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		042A62BB2A12691400AC7D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042A62BC2A12691F00AC7D79 /* User.swift */,
+				042A62C92A12AB1A00AC7D79 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		042A62C62A12710200AC7D79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04237D172A122B1200C847CF /* Home */,
+				042A62B62A12472000AC7D79 /* PageView */,
+				04200FF52A1F359900929841 /* CardViews */,
+				04200FF62A1F35B300929841 /* ActionView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		042A62CD2A13D12100AC7D79 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04237D082A122A9A00C847CF /* TikTokCloneApp.swift */,
+				04237D0A2A122A9A00C847CF /* ContentView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04237D102A122A9B00C847CF /* Preview Assets.xcassets in Resources */,
 				04237D0D2A122A9B00C847CF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +237,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042A62C82A12711200AC7D79 /* MCQCardView.swift in Sources */,
+				04237D192A122B1B00C847CF /* HomeView.swift in Sources */,
 				04237D0B2A122A9A00C847CF /* ContentView.swift in Sources */,
+				042A62CC2A12B57600AC7D79 /* ActionsView.swift in Sources */,
+				042A62CA2A12AB1A00AC7D79 /* Card.swift in Sources */,
 				04237D092A122A9A00C847CF /* TikTokCloneApp.swift in Sources */,
+				042A62B82A12473100AC7D79 /* FlashCardsView.swift in Sources */,
+				042A62C52A126BD000AC7D79 /* CardsViewModel.swift in Sources */,
+				042A62CF2A13D3BA00AC7D79 /* FlashcardView.swift in Sources */,
+				04237D1B2A123B3400C847CF /* HomeViewModel.swift in Sources */,
+				042A62D12A13D49F00AC7D79 /* MCQCardsView.swift in Sources */,
+				042A62BD2A12691F00AC7D79 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,15 +376,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TikTokClone/Preview Content\"";
-				DEVELOPMENT_TEAM = WK8PK946XG;
+				DEVELOPMENT_TEAM = JL84E9GK95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikTokClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,15 +406,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TikTokClone/Preview Content\"";
-				DEVELOPMENT_TEAM = WK8PK946XG;
+				DEVELOPMENT_TEAM = JL84E9GK95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikTokClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
